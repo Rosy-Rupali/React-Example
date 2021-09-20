@@ -1,13 +1,14 @@
 import logo from "./logo.svg";
 import "./App.css";
 import React from "react";
+import ParentComponent from "./useCallback/ParentComponent";
 
-import PortalDemo from "./Portal/PortalDemo";
+
 
 function App() {
   return (
     <div className="App">
-      <PortalDemo />
+     <ParentComponent />
     </div>
   );
 }
